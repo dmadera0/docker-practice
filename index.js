@@ -1,7 +1,7 @@
 const app = require("express")()
 
-app.get((request, response)=>{
+app.get("/", (request, response)=>{
     response.json({message: "HI! Im a node app!" })
 })
 
-app.listen(4000)
+app.listen(5000)
