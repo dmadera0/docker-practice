@@ -1,6 +1,6 @@
-FROM 15.6.0-alpine3.10
+FROM node:15.6.0-alpine3.10
 
-WORKING /app
+WORKDIR /app
 
 EXPOSE 5000
 
